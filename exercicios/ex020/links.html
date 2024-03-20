@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+        
+        h1 {
+            font-family: Madimi One;
+            color: lightblue;
+            text-align: center;
+            text-shadow: 1px 1px 2px rgb(35, 45, 48);
+            
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkblue;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: line-through;
+        }
+
+        a:active {
+            color: rgb(0, 255, 234);
+        }
+
+        li {
+            list-style: none;
+            text-align: center;
+        }
+
+        a::after {
+            content: ' ♦';
+           
+        }
+
+        a::before {
+            content: '♦ ';
+            
+        }
+
+        .especial {
+            background-color: rgb(206, 206, 206);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do Cursoemvideo</a></li>
+    </ul>
+
+
+    
+</body>
+</html>

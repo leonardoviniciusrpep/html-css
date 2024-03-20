@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+            @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Pacifico&display=swap');
+        body {
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 20px;
+            box-shadow: 7px 6px 4px 0px rgba(0, 0, 0, 0.281);           
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            border-radius: 20px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(153, 153, 153);
+        }
+
+        nav{
+            background-color: rgb(142, 232, 255);
+            padding: 1px;
+            box-shadow: inset -8px 9px 20px 0px rgba(0, 0, 0, 0.404);
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            margin-right: 20px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        #assuntos {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.2em;
+        }
+        h1 {
+            font-family: Coiny;
+            text-align: center;
+            text-shadow: 1px 0px 11px rgb(0 0 0 / 46%);
+            color: rgb(0, 0, 0);
+            
+        }
+        #artigo {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0px
+        }
+        #noticias {
+            text-align: center;
+        }
+
+        main {
+            border-radius: 20px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">Leuzin</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Política Tecnologia</p>
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre Fulano</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla necessitatibus sit inventore vitae! Porro, at impedit, dolor quis libero accusamus dignissimos optio sint voluptatibus illo nesciunt. Dignissimos recusandae porro repellat? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi minus nesciunt excepturi animi quam maiores beatae itaque cum necessitatibus facere incidunt ipsa, atque hic. Labore nihil earum repudiandae autem ipsa. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi id veritatis possimus, illo aspernatur alias ipsa similique tenetur quidem ipsam beatae commodi cumque, nam eaque ex, illum nihil soluta perspiciatis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe pariatur, error, suscipit nisi quae, ea nostrum porro expedita quia asperiores atque earum consectetur quo. Pariatur nemo ut nam! Ex, tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores possimus obcaecati facilis omnis doloribus voluptates labore qui, ipsam dignissimos optio officia repellendus, in vel eaque. Suscipit obcaecati accusantium placeat autem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga magni ea repellendus recusandae repellat laudantium illo amet quibusdam enim ad eius dolorum aperiam omnis totam commodi suscipit reprehenderit, est iure. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum modi at blanditiis facere hic, asperiores velit dolore sequi magni aperiam. Doloremque possimus voluptates in velit quia. Nihil eveniet perspiciatis neque? </p>
+                <aside>
+                    <p id="artigo">Artigo escrito por Fulano Da Silva</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Site criado por: Leuzin.</p>
+
+    </footer>
+
+    
+</body>
+</html>

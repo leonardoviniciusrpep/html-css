@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes, ou simplesmente aumente e diminuia o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1> Reproduzinho Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio controls>
+        <source src="mídia/xaropinho rapaz.mp3" type="audio/mp3">
+        <source src="mídia/xaropinho rapaz.ogg" type="audio/ogg">
+        <source src="mídia/xaropinho rapaz.wav" type="audio/wav">
+        <p>Seu navegador não está conseguindo reproduziro áudio. <a href="mídia/xaropinho rapaz.mp3">Clique aqui para baixar o MP3.</a></p>
+    </audio>
+    <p>Escute esse áudio.</p>
+    <audio controls>
+        <source src="mídia/oh my gof.mp3" type="audio/mpeg">
+        <source src="mídia/oh my gof.ogg" type="audio/ogg">
+        <source src="mídia/oh my gof.wav" type="audio/wav">
+        Seu navegador não está conseguindo reproduzir áudio. <a href="mídia/oh my gof.mp3">Clique aqui para baixar o MP3.</a>
+    </audio>
+</body>
+</html>
